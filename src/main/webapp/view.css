@@ -1,0 +1,107 @@
+table {
+    max-width: 960px;
+    margin: 1px auto;
+}
+th,
+td {
+    padding: 6px 15px;
+}
+th {
+    background: #42444e;
+    color: #fff;
+    text-align: left;
+}
+tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+}
+tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+}
+td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+}
+td:first-child {
+    border-left: 1px solid #c6c9cc;
+}
+tr:nth-child(even) td {
+    background: #eaeaed;
+}
+tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}
+
+.edit_button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px #999;
+}
+
+.edit_button:hover {background-color: #3e8e41}
+
+.edit_button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.delete_button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e51414;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px #999;
+}
+
+.delete_button:hover {background-color: #e51414}
+
+.delete_button:active {
+    background-color: #e51414;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+.addbutton {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #14b4e5;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px #999;
+}
+
+.addbutton:hover {background-color: #14b4e5
+}
+
+.addbutton:active {
+    background-color: #14a6e5;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

@@ -1,0 +1,24 @@
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-image: -webkit-linear-gradient(right, #1a1d65, 0%, #382564, 100%);
+    background-image: -moz-linear-gradient(right, #1a1d65 0%, #382564 100%);
+    background-image: linear-gradient(to right, #1a1d65 0%, #382564 100%);
+    /*background-color: #333;*/
+    color: white;
+}
+
+/* Style the container for inputs */
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
